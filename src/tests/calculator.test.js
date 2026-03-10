@@ -165,7 +165,7 @@ describe('Calculator Functions', () => {
   });
 
   // Modulo Tests
-  describe('Modulo', () => {
+  describe('modulo', () => {
     test('should calculate modulo: 5 % 2 = 1', () => {
       expect(modulo(5, 2)).toBe(1);
     });
@@ -192,7 +192,7 @@ describe('Calculator Functions', () => {
   });
 
   // Power Tests
-  describe('Power', () => {
+  describe('power', () => {
     test('should calculate power: 2 ** 3 = 8', () => {
       expect(power(2, 3)).toBe(8);
     });
@@ -231,7 +231,7 @@ describe('Calculator Functions', () => {
   });
 
   // Square Root Tests
-  describe('Square Root', () => {
+  describe('squareroot', () => {
     test('should calculate square root: √16 = 4', () => {
       expect(squareRoot(16)).toBe(4);
     });
